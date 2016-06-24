@@ -1,0 +1,26 @@
+textarea {
+    resize: none;
+    width:99%;
+    height:100px;
+    margin:3% 0 3% 0;
+    font-size: 14px;
+    padding:3px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: solid 2px #009688;
+}
+
+.button-container{
+	float:right;
+	margin-bottom:3%;
+}
+
+.button-container-toolbar{
+    float:right;
+}
+
+.my-clear{
+	clear:both;
+}

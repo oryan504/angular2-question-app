@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+
+<div *ngIf="navPosition==10">
+	<app-start-card></app-start-card>
+</div>
+
+<div *ngIf="navPosition==0">
+    <app-main-card></app-main-card>
+</div>
+
+
+<div *ngIf="navPosition==100">
+    <app-submit-card></app-submit-card>
+</div>

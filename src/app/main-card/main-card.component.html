@@ -1,0 +1,31 @@
+
+<md-toolbar class="md-hue-2" color="primary"><h1>{{testTitle}}</h1></md-toolbar>
+
+<md-card>
+	<h2>{{question}}</h2>
+	
+	<div class="answers" *ngFor="let answer of answerChoices">
+	   
+	     <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
+            {{answer.choice}}
+         </md-checkbox>
+
+         
+         <br>
+         <br>
+        
+	</div>
+
+
+	<textarea placeholder="Add Notes Here..."></textarea>
+	<br>
+
+	<div class="button-container">
+	      <button md-raised-button color="primary"  (click)="previousQuestion()">BACK</button>
+	      <button md-raised-button color="primary" (click)="saveQuiz()">SAVE</button>
+	      <button md-raised-button color="primary" (click)="nextQuestion(); saveAnswer()">NEXT</button>
+	</div>
+
+	<div class="my-clear"></div>
+</md-card>
+
