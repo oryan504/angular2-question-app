@@ -18,6 +18,7 @@ const materialPkgs:string[] = [
   'toolbar',
   'input',
   'checkbox',
+  'radio',
 ];
 
 materialPkgs.forEach((pkg) => {

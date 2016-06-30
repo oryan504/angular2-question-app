@@ -1,0 +1,73 @@
+{
+"name":"Web Conferencing",
+"testQuestions":[
+      {
+        "question": "Do you have  defined budget?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      },
+      {
+        "question": "Do you have previous experience with web confrencing?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      },
+      {
+        "question": "What is your role with the project?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"Owner"},
+          {"option":"Decision Maker"},
+          {"option":"Influencer"}
+          ]
+      },
+      {
+        "question": "What is the timeline for your implementation?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"3"},
+          {"option":"3 - 6"},
+          {"option":"6 - 12"},
+          {"option":"12 +"}
+          ]
+      },
+      {
+        "question": "How large is your expected audience ?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"Less than 100"},
+          {"option":"100 - 200"},
+          {"option":"More than 200"}
+          ]
+      },
+        {
+        "question": "Is there a need for an E-Learning solution?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      }
+    ]
+  
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+

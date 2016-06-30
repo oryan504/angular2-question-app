@@ -1,13 +1,13 @@
 
-<div *ngIf="navPosition==10">
-	<app-start-card></app-start-card>
+<div *ngIf="!quizStarted">
+	<app-start-card (selectedTest)='selectedTest = $event' (quizStarted)='quizStarted = $event'></app-start-card>
 </div>
 
-<div *ngIf="navPosition==0">
-    <app-main-card></app-main-card>
+<div *ngIf="quizStarted && !quizSaved">
+    <app-main-card (quizSaved)='quizSaved = $event'></app-main-card>
 </div>
 
-
-<div *ngIf="navPosition==100">
+<div *ngIf="quizSaved">
     <app-submit-card></app-submit-card>
 </div>
+

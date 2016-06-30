@@ -1,31 +1,22 @@
 
-<md-toolbar class="md-hue-2" color="primary"><h1>{{testTitle}}</h1></md-toolbar>
+<md-toolbar class="md-hue-2" color="primary"><h1>{{tests.name}}</h1></md-toolbar>
 
 <md-card>
-	<h2>{{question}}</h2>
+	<h2> {{questions[questionNumber]}} </h2>
 	
-	<div class="answers" *ngFor="let answer of answerChoices">
-	   
-	     <md-checkbox ng-model="data.cb1" aria-label="Checkbox 1">
-            {{answer.choice}}
-         </md-checkbox>
+	<form >
+		<div class="answers" *ngFor="let answer of answers[questionNumber]">
+			<input type="radio" name="testQuestions" value="{{answer.option}}" > {{answer.option}}
+		</div>
+	</form>
 
-         
-         <br>
-         <br>
-        
-	</div>
-
-
-	<textarea placeholder="Add Notes Here..."></textarea>
-	<br>
-
+	<textarea type='text' placeholder="Add additional comments here..."></textarea><br>
+	
 	<div class="button-container">
-	      <button md-raised-button color="primary"  (click)="previousQuestion()">BACK</button>
-	      <button md-raised-button color="primary" (click)="saveQuiz()">SAVE</button>
-	      <button md-raised-button color="primary" (click)="nextQuestion(); saveAnswer()">NEXT</button>
+	      <button md-raised-button color="primary" [disabled]="firstQuestionState" (click)="previousQuestion()"> BACK</button>
+	      <button md-raised-button color="primary" (click)="onSave('submitQuiz')"> SAVE</button>
+	      <button md-raised-button color="primary" [disabled]="lastQuestionState" (click)="nextQuestion(); saveAnswer('userAnswer')"> NEXT</button>
 	</div>
 
 	<div class="my-clear"></div>
 </md-card>
-

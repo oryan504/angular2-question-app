@@ -1,0 +1,83 @@
+{
+"name":"Live Streaming",
+"testQuestions":[
+      {
+        "question": "Do you have  defined budget?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      },
+      {
+        "question": "Do you have previous experience with live streaming?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      },
+      {
+        "question": "What is your role with the project?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"Owner"},
+          {"option":"Decision Maker"},
+          {"option":"Influencer"}
+          ]
+      },
+      {
+        "question": "What is the timeline for your implementation?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"3"},
+          {"option":"3 - 6"},
+          {"option":"6 - 12"},
+          {"option":"12 +"}
+          ]
+      },
+      {
+        "question": "How many concurrent livestreams do you plan on casting ?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"Less than 10"},
+          {"option":"10 - 100"},
+          {"option":"More than 100"}
+          ]
+      },
+        {
+        "question": "What is the average duration of your broadcast ?",
+        "questionType":"multi",
+        "answers": [
+          {"option":"1h"},
+          {"option":"8h"},
+          {"option":"24h"}
+          ]
+      },
+      {
+        "question": "What is your expected average audience size ?",
+        "questionType":"multi",
+        "answers": [
+          {"option":" less than 100"},
+          {"option":"100 - 1000"},
+          {"option":"More than 1000"}
+          ]
+      }
+    ]
+  
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+

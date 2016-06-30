@@ -1,44 +1,64 @@
 {
-"name":"Test A",
-"question 1":{
-  "question": "The first question ?",
-  "answers": [
-    {"letter":"a","option":"answer a"},
-    {"letter":"b","option":"answer b"},
-    {"letter":"c","option":"answer c"}
+"name":"VOD",
+"testQuestions":[
+      {
+        "question": "Do you have a defined budget?",
+        "questionType":"yn",
+        "answers": [
+          {"option":"Yes"},
+          {"option":"No"}
+          ]
+      },
+      {
+        "question": "The second question ?",
+        "questionType":"multi",
+        "answers": [
+          {"letter":"a","option":"answer a"},
+          {"letter":"b","option":"answer b"},
+          {"letter":"c","option":"answer c"}
+          ]
+      },
+      {
+        "question": "The third question ?",
+        "questionType":"TF",
+        "answers": [
+          {"letter":"true","option":"true"},
+          {"letter":"false","option":"false"}
+          ]
+      },
+      {
+        "question": "The forth question ?",
+        "questionType":"multi",
+        "answers": [
+          {"letter":"a","option":"answer a"},
+          {"letter":"b","option":"answer b"},
+          {"letter":"c","option":"answer c"}
+          ]
+      },
+      {
+        "question": "The fith question ?",
+        "questionType":"multi",
+        "answers": [
+          {"letter":"a","option":"answer a"},
+          {"letter":"b","option":"answer b"},
+          {"letter":"c","option":"answer c"}
+          ]
+      }
     ]
-},
-"question 2":{
-  "question": "The second question ?",
-  "answers": [
-    {"letter":"a","option":"answer a"},
-    {"letter":"b","option":"answer b"},
-    {"letter":"c","option":"answer c"}
-    ]
-},
-"question 3":{
-  "question": "The third question ?",
-  "answers": [
-   {"letter":"a","option":"answer a"},
-    {"letter":"b","option":"answer b"},
-    {"letter":"c","option":"answer c"}
-    ]
-},
-"question 4":{
-  "question": "The forth question ?",
-  "answers": [
-    {"letter":"a","option":"answer a"},
-    {"letter":"b","option":"answer b"},
-    {"letter":"c","option":"answer c"}
-    ]
-},
-"question 5":{
-  "question": "The fith question ?",
-  "answers": [
-    {"letter":"a","option":"answer a"},
-    {"letter":"b","option":"answer b"},
-    {"letter":"c","option":"answer c"}
-    ]
+  
 }
 
-}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
